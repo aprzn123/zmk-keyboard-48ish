@@ -17,19 +17,19 @@
 
 		lower_layer { // Layer 1
 			bindings = <
-				&kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS   &kp STAR    &kp LPAR      &kp RPAR      &trans
-				&kp DEL    &kp F1    &kp F2  &kp F3    &kp F4    &kp F5     &kp F6     &kp UNDER  &kp PLUS    &kp LBRC      &kp RBRC      &kp PIPE
-				&trans     &kp F7    &kp F8  &kp F9    &kp F10   &kp F11    &kp F12    &kp NUHS   &kp NUBS    &kp HOME      &kp END       &trans
-				&trans     &trans    &trans  &trans    &trans    &trans     &trans     &trans     &kp C_NEXT  &kp C_BRI_DN  &kp C_BRI_UP  &kp C_PP
+				&trans     &kp C_VOL_UP&trans    &kp UP    &trans    &kp C_BRI_UP&trans     &kp HOME   &kp END     &kp PG_UP     &kp PG_DN     &kp DEL
+				&kp BSPC   &kp C_VOL_DN&kp LEFT  &kp DOWN  &kp RIGHT &kp C_BRI_DN&kp F1     &kp F2     &kp F3      &kp F4        &kp F5        &kp F6
+				&trans     &trans      &kp C_PREV&kp C_PP  &kp C_NEXT&trans      &kp F7     &kp F8     &kp F9      &kp F10       &kp F11       &kp F12
+				&trans     &trans      &trans    &trans    &trans    &trans      &trans     &trans     &trans      &trans        &trans        &trans
 			>;
 		};
 
 		raise_layer { // Layer 2
 			bindings = <
-				&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4   &kp N5   &kp N6   &kp N7     &kp N8      &kp N9        &kp N0        &trans
-				&kp DEL    &kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6   &kp MINUS  &kp EQUAL   &kp LBKT      &kp RBKT      &kp BSLH
-				&trans     &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp NUHS   &kp NUBS    &kp HOME      &kp END       &trans
-				&trans     &trans  &trans  &trans  &trans   &trans   &trans   &trans     &kp C_NEXT  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP
+				&kp GRAVE   &kp TILDE&kp AMPS &kp STAR &kp LPAR  &kp RPAR  &kp BSLH  &kp N7      &kp N8       &kp N9         &kp PIPE       &kp DEL
+				&kp DEL     &kp PLUS &kp DLLR &kp PRCNT&kp CARET &kp MINUS &kp LBRC  &kp N4      &kp N5       &kp LBKT       &kp RBRC       &kp BSLH
+				&trans      &kp UNDER&kp EXCL &kp AT   &kp HASH  &kp EQUAL &kp LBKT  &kp N1      &kp N2       &kp N3         &kp RBKT       &trans
+				&trans      &trans   &trans   &trans   &trans    &trans    &trans    &trans      &kp N0       &trans         &trans         &trans
 			>;
 		};
 
